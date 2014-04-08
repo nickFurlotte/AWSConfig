@@ -13,3 +13,5 @@ wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
 cd $HOME
 ln -sb AWSConfig/.bashrc .
 source .bashrc
+
+ln -sb AWSConfig/.tmux.conf .
