@@ -162,7 +162,7 @@ shopt -s histappend
 
 # Make prompt informative
 # See:  http://www.ukuug.org/events/linux2003/papers/bash_tips/
-PS1="\[\033[0;34m\][\u@\h:\w]$\[\033[0m\]"
+PS1="\[\033[0;34m\][\u@\h:\w]$\[\033[0m\] "
 
 ## -----------------------
 ## -- 2) Set up aliases --
@@ -218,10 +218,3 @@ if [ -s ~/.nvm/nvm.sh ]; then
     source ~/.nvm/nvm.sh
     nvm use v0.10.12 &> /dev/null # silence nvm use; needed for rsync
 fi
-
-## ------------------------------
-## -- 3) User-customized code  --
-## ------------------------------
-
-## Define any user-specific variables you want here.
-source ~/.bashrc_custom
