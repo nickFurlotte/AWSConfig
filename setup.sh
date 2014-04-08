@@ -9,3 +9,6 @@ sudo apt-get install -y curl
 # Install Heroku toolbelt
 # https://toolbelt.heroku.com/debian
 wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+
+cd $HOME
+ln -sb AWSConfig/.bashrc .
