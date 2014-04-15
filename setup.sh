@@ -4,6 +4,10 @@
 # for headless setup. 
 
 sudo apt-get install -y git
+git config --global user.name "Nick Furlotte"
+git config --global user.email nick.furlotte@gmail.com
+git config --global core.editor vim
+
 sudo apt-get install -y curl
 curl https://raw.github.com/creationix/nvm/master/install.sh | sh
 
