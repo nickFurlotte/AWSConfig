@@ -10,7 +10,6 @@ sudo apt-get install python-numpy python-scipy python-matplotlib ipython ipython
 sudo apt-get install python-pip -y
 sudo pip install awscli
 
-
 # Install x11 stuff
 sudo apt-get install xauth -y
 echo "Need to do a REBOOT to use X11."
