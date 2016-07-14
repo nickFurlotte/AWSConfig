@@ -6,6 +6,7 @@ Some config files for an AWS instance.
 Launch an EC2 instance, login and then do the following.
 
 ```sh
+sudo apt-get update
 sudo apt-get install -y git-core
 git clone https://github.com/nickFurlotte/AWSConfig
 cd AWSConfig
